@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Adapost.Models.Animal>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Animale</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.IdAnimal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipAnimal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataNastere)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rasa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SterilizatCastrat)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdAnimal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipAnimal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataNastere)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rasa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SterilizatCastrat)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdAnimal }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdAnimal }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdAnimal })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Adapost.Models.Voluntari>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Voluntari</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdVoluntar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prenume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NrTel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adresa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ocupatie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdVoluntar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nume)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prenume)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NrTel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adresa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ocupatie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdVoluntar }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdVoluntar }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdVoluntar })
+        </td>
+    </tr>
+}
+
+</table>

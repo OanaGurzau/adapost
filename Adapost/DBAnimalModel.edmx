@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="DBAnimalModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="DBAnimalModelTargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DBAnimalModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="DBAnimalModelContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AnimalSet" EntityType="DBAnimalModel.Animal" />
+          <EntitySet Name="VoluntariSet" EntityType="DBAnimalModel.Voluntari" />
+          <EntitySet Name="AngajatiSet" EntityType="DBAnimalModel.Angajati" />
+          <AssociationSet Name="AnimalVoluntari" Association="DBAnimalModel.AnimalVoluntari">
+            <End Role="Animal" EntitySet="AnimalSet" />
+            <End Role="Voluntari" EntitySet="VoluntariSet" />
+          </AssociationSet>
+          <AssociationSet Name="AnimalAngajati" Association="DBAnimalModel.AnimalAngajati">
+            <End Role="Animal" EntitySet="AnimalSet" />
+            <End Role="Angajati" EntitySet="AngajatiSet" />
+          </AssociationSet>
+          <EntitySet Name="VeterinariSet" EntityType="DBAnimalModel.Veterinari" />
+          <AssociationSet Name="VeterinariAnimal" Association="DBAnimalModel.VeterinariAnimal">
+            <End Role="Veterinari" EntitySet="VeterinariSet" />
+            <End Role="Animal" EntitySet="AnimalSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Animal">
+          <Key>
+            <PropertyRef Name="IdAnimal" />
+          </Key>
+          <Property Name="IdAnimal" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TipAnimal" Type="String" Nullable="false" MaxLength="1" FixedLength="true" />
+          <Property Name="DataNastere" Type="DateTime" Nullable="false" />
+          <Property Name="Rasa" Type="String" Nullable="false" />
+          <Property Name="SterilizatCastrat" Type="String" Nullable="true" />
+          <NavigationProperty Name="Voluntari" Relationship="DBAnimalModel.AnimalVoluntari" FromRole="Animal" ToRole="Voluntari" />
+          <NavigationProperty Name="Angajati" Relationship="DBAnimalModel.AnimalAngajati" FromRole="Animal" ToRole="Angajati" />
+          <NavigationProperty Name="Veterinari" Relationship="DBAnimalModel.VeterinariAnimal" FromRole="Animal" ToRole="Veterinari" />
+          <Property Name="VeterinariIdVeterinar" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Voluntari">
+          <Key>
+            <PropertyRef Name="IdVoluntar" />
+          </Key>
+          <Property Name="IdVoluntar" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nume" Type="String" Nullable="false" MaxLength="15" />
+          <Property Name="Prenume" Type="String" Nullable="false" MaxLength="15" />
+          <Property Name="NrTel" Type="String" Nullable="false" MaxLength="10" />
+          <Property Name="Adresa" Type="String" Nullable="false" />
+          <Property Name="Ocupatie" Type="String" Nullable="false" />
+          <Property Name="Email" Type="String" Nullable="true" />
+          <NavigationProperty Name="Animal" Relationship="DBAnimalModel.AnimalVoluntari" FromRole="Voluntari" ToRole="Animal" />
+        </EntityType>
+        <EntityType Name="Angajati">
+          <Key>
+            <PropertyRef Name="IdAngajat" />
+          </Key>
+          <Property Name="IdAngajat" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nume" Type="String" Nullable="false" MaxLength="15" />
+          <Property Name="Prenume" Type="String" Nullable="false" MaxLength="15" />
+          <Property Name="NrTel" Type="String" Nullable="false" />
+          <Property Name="Adresa" Type="String" Nullable="false" />
+          <Property Name="Email" Type="String" Nullable="true" />
+          <NavigationProperty Name="Animal" Relationship="DBAnimalModel.AnimalAngajati" FromRole="Angajati" ToRole="Animal" />
+        </EntityType>
+        <Association Name="AnimalVoluntari">
+          <End Type="DBAnimalModel.Animal" Role="Animal" Multiplicity="1" />
+          <End Type="DBAnimalModel.Voluntari" Role="Voluntari" Multiplicity="*" />
+        </Association>
+        <Association Name="AnimalAngajati">
+          <End Type="DBAnimalModel.Animal" Role="Animal" Multiplicity="*" />
+          <End Type="DBAnimalModel.Angajati" Role="Angajati" Multiplicity="1" />
+        </Association>
+        <EntityType Name="Veterinari">
+          <Key>
+            <PropertyRef Name="IdVeterinar" />
+          </Key>
+          <Property Name="IdVeterinar" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nume" Type="String" Nullable="false" MaxLength="15" />
+          <Property Name="Prenume" Type="String" Nullable="false" MaxLength="15" />
+          <NavigationProperty Name="Animal" Relationship="DBAnimalModel.VeterinariAnimal" FromRole="Veterinari" ToRole="Animal" />
+        </EntityType>
+        <Association Name="VeterinariAnimal">
+          <End Type="DBAnimalModel.Veterinari" Role="Veterinari" Multiplicity="1" />
+          <End Type="DBAnimalModel.Animal" Role="Animal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Veterinari">
+              <PropertyRef Name="IdVeterinar" />
+            </Principal>
+            <Dependent Role="Animal">
+              <PropertyRef Name="VeterinariIdVeterinar" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="DBAnimalModel" />
+        <Alias Key="Target" Value="DBAnimalModel.Store" />
+        <EntityContainerMapping CdmEntityContainer="DBAnimalModelContainer" StorageEntityContainer="DBAnimalModelTargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

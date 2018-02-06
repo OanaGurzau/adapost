@@ -1,0 +1,50 @@
+﻿@model Adapost.Models.Animal
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Animal</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TipAnimal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipAnimal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataNastere)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataNastere)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rasa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rasa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SterilizatCastrat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SterilizatCastrat)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdAnimal }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

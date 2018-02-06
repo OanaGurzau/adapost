@@ -1,0 +1,164 @@
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\ApplicationInsights.config
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\csc.exe
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\System.Collections.Immutable.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\vbc.exe
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\VBCSCompiler.exe
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\roslyn\VBCSCompiler.exe.config
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Adapost.dll.config
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Adapost.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Adapost.pdb
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Antlr3.Runtime.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\EntityFramework.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\EntityFramework.SqlServer.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.Web.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.WindowsServer.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.ApplicationInsights.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Google.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Web.Infrastructure.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Newtonsoft.Json.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Owin.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.Helpers.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.Mvc.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.Optimization.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.Razor.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.Deployment.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.Razor.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\WebGrease.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.Web.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.WindowsServer.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.ApplicationInsights.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.Helpers.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.Mvc.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.Optimization.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.Razor.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.Deployment.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.Razor.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Antlr3.Runtime.pdb
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Newtonsoft.Json.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\EntityFramework.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\EntityFramework.SqlServer.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Google.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\obj\Debug\Adapost.dll
+c:\users\oana\documents\visual studio 2015\Projects\Adapost\Adapost\obj\Debug\Adapost.pdb
+C:\Users\Oana\Documents\Visual Studio 2015\Projects\Adapost\Adapost\obj\Debug\Adapost.csprojResolveAssemblyReference.cache
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\ApplicationInsights.config
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\csc.exe
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\System.Collections.Immutable.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\System.Reflection.Metadata.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\vbc.exe
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\VBCSCompiler.exe
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\roslyn\VBCSCompiler.exe.config
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Adapost.dll.config
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Adapost.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Adapost.pdb
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Antlr3.Runtime.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\EntityFramework.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\EntityFramework.SqlServer.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.Agent.Intercept.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.DependencyCollector.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.Web.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.WindowsServer.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.ApplicationInsights.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.Core.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Cookies.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Facebook.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Google.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.OAuth.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Twitter.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Web.Infrastructure.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Newtonsoft.Json.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Owin.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.Helpers.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.Mvc.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.Optimization.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.Razor.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.Deployment.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.Razor.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\WebGrease.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.DependencyCollector.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.Web.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AI.WindowsServer.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.ApplicationInsights.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.Helpers.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.Mvc.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.Optimization.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.Razor.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.Deployment.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\System.Web.WebPages.Razor.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Antlr3.Runtime.pdb
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Newtonsoft.Json.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\EntityFramework.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\EntityFramework.SqlServer.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.Core.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Facebook.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Cookies.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.OAuth.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Google.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.Twitter.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\obj\Debug\Adapost.csprojResolveAssemblyReference.cache
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\obj\Debug\Adapost.dll
+I:\LAPTOP ASUS\Documents\Visual Studio 2015\Projects\Adapost\Adapost\obj\Debug\Adapost.pdb

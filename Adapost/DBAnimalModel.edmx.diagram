@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="74e7c6198bbc430aa57d6b677652705f" Name="Diagram1" >
+        <EntityTypeShape EntityType="DBAnimalModel.Animal" Width="1.5" PointX="4.125" PointY="0.5" />
+        <EntityTypeShape EntityType="DBAnimalModel.Voluntari" Width="1.5" PointX="0.875" PointY="0.5" />
+        <EntityTypeShape EntityType="DBAnimalModel.Angajati" Width="1.5" PointX="8.625" PointY="0.5" />
+        <AssociationConnector Association="DBAnimalModel.AnimalVoluntari" />
+        <AssociationConnector Association="DBAnimalModel.AnimalAngajati" />
+        <EntityTypeShape EntityType="DBAnimalModel.Veterinari" Width="1.5" PointX="6.875" PointY="2.25" />
+        <AssociationConnector Association="DBAnimalModel.VeterinariAnimal" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

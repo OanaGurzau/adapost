@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="Adapost.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            width: 60px;
+        }
+        .auto-style3 {
+            width: 313px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="width:1100px; margin:0 auto">
+            <tr style="width:1100px; height:50px; ">
+                <td class="auto-style2">
+                    <img src="imagini/lion.ico" style="width:60px;" />
+                </td>
+                <td class="auto-style3"><h3 style="color: #E6E5E1; font-size:50px; font-weight: normal; font-family: 'Dancing Script', cursive;    
+                                                    line-height:40px; margin:0; text-align:center; border-radius:20px; height: 55px; width: 307px; background-color:#382D2B;" >Pets to Go</h3></td>
+                <td style="width:700px; text-align:right;">
+                    <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/imagini/facebook.png"  /> &nbsp;&nbsp; <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/imagini/google.png" />
+                        &nbsp;&nbsp;<asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/imagini/twitter.png" /> &nbsp;&nbsp;<asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/imagini/youtube.png" />
+                </td>
+            </tr>
+            <tr style="width:1100px; height:40px;">
+                <td colspan="3" style="background-color:#382D2B;">
+                  <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick" Orientation="Horizontal"> 
+                        <Items>
+                            <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
+                            <asp:MenuItem Text="Animale" Value="Animale"></asp:MenuItem>
+                            <asp:MenuItem Text="Inscrie-te ca voluntar" Value="Inscrie-te ca voluntar"></asp:MenuItem>
+                            <asp:MenuItem Text="Contact" Value="Contact"></asp:MenuItem>
+                        </Items>
+                        <StaticMenuItemStyle Font-Size="Large" ForeColor="#E6E5E1" HorizontalPadding="30px" />
+                    </asp:Menu>
+                </td>
+            </tr>  
+            <tr style="width:1100px; height:20px;">
+                <td colspan="3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        
+        <tr style="width:1100px; height:20px;">
+            <td colspan="3">
+            
+                </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

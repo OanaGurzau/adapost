@@ -1,0 +1,153 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {  
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/*Schimba*/
+
+
+.container{
+    padding-top:20px;
+}
+
+
+
+
+
+/*Modificam Fontul pentru Titlu*/
+
+h1{
+    font-family: 'Courgette', cursive;
+    font-weight:200;
+    font-size:90px;
+    color:#428bca;
+    text-align:center;
+    margin-bottom:50px;
+    color: #570101;
+    text-shadow: 2px 0 0 #F7EBEE, -2px 0 0 #F7EBEE, 0 2px 0 #F7EBEE, 0 -2px 0 #F7EBEE, 1px 1px #F7EBEE, -1px -1px 0 #F7EBEE, 1px -1px 0 #F7EBEE, -1px 1px 0 #F7EBEE;
+ 
+  
+    
+}
+
+/*Subtitlu*/
+
+.jumbotron h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight:200;
+    font-size:90px;
+    color:#428bca;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+/*Paragrafe*/
+
+.jumbotron p{
+    text-align:justify;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-indent:30px;
+}
+
+/*Itemi din meniu*/
+
+li a{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:6px;
+
+}
+
+/* Coloane jos*/
+
+.col-md-3{
+    border-left:1px solid #fff;
+}
+.col-md-3:first-child{
+    border:none;
+}
+
+.col-md-3 h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight:200;
+    font-size:40px;
+    color:#428bca;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.col-md-3 p{
+    text-align:justify;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:18px;
+}
+
+
+/*dimensiunea continutului body*/
+.body-content{
+    margin-top:30px;
+   
+} 
+
+/*Subtitlu*/
+
+.jumbotron h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight:200;
+    font-size:90px;
+    color:#428bca;
+    margin-bottom:50px;
+    text-align:center;
+}
+
+/*butoane jos*/
+
+.btn-small{
+    padding:8px;
+    font-size:15px;
+}
+
+/*selectie pentru text --inlocuieste albastrul obisnuit*/
+
+p.red::selection{
+    background: red;
+}
+p.red::-moz-selection {
+    background: red;
+}
+
+p.yellow::selection {
+  background: #fff2a8;
+}
+p.yellow::-moz-selection {
+  background: #fff2a8;
+}
+
+p.blue::selection {
+  background: #a8d1ff;
+}
+p.blue::-moz-selection {
+  background: #a8d1ff;
+}
